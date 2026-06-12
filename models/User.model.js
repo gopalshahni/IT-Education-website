@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
     },
     purchase_list: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: Courses,
     },
     product_key: {
